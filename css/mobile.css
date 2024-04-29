@@ -61,7 +61,7 @@ h4 {
   height: 50px;
   margin: auto;
   position: absolute;
-  bottom: -25%;
+  bottom: -150%;
   box-shadow: white;
 
   color: #fff;
@@ -99,11 +99,6 @@ h4 {
   margin: auto 15px;
 }
 
-@media only screen and (min-width: 602px) {
-  .mb-only {
-    display: none;
-  }
-}
 @media only screen and (max-width: 602px) {
   .mn-only {
     display: none;
