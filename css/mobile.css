@@ -30,7 +30,7 @@ body {
 
 .main-mb {
   position: absolute;
-  top: 50%;
+  top: 70%;
   bottom: 25%;
   left: 0px;
   right: 0px;
@@ -76,23 +76,17 @@ h4 {
 
 /*Cards*/
 .top-mb {
-  position: absolute;
-  top: -100%;
-  bottom: 0%;
-  left: 0px;
-  right: 0px;
-
+  position: relative;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  margin: 15px auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .bottom-mb {
-  position: absolute;
-  top: 175%;
-  bottom: 0%;
-  left: 0px;
-  right: 0px;
+  position: relative;
 
   margin: 15px auto;
   display: flex;
@@ -103,4 +97,15 @@ h4 {
 
 .card {
   margin: auto 15px;
+}
+
+@media only screen and (min-width: 602px) {
+  .mb-only {
+    display: none;
+  }
+}
+@media only screen and (max-width: 602px) {
+  .mn-only {
+    display: none;
+  }
 }
