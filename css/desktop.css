@@ -47,7 +47,7 @@ body {
   height: 100px;
   margin: auto;
   position: absolute;
-  bottom: -25%;
+  bottom: -50%;
   box-shadow: white;
 
   color: #fff;
@@ -57,7 +57,7 @@ body {
 /*NAV BAR*/
 
 .navbar {
-  position:absolute;
+  position: absolute;
   margin: auto;
   width: 92.5%;
   border-bottom-right-radius: 25px;
@@ -75,32 +75,41 @@ body {
   border-radius: 100%;
 }
 
-
 /*Cards*/
-.top-mn{
-    position: absolute;
-    top: -100%;
-    bottom: 0%;
-    left: 0px;
-    right: 0px;
+.top-mn {
+  position: absolute;
+  top: -50%;
+  bottom: 0%;
+  left: 0px;
+  right: 0px;
 
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
-.bottom-mn{
-    position: absolute;
-    top: 175%;
-    bottom: 0%;
-    left: 0px;
-    right: 0px;
+.bottom-mn {
+  position: absolute;
+  top: 175%;
+  bottom: 0%;
+  left: 0px;
+  right: 0px;
 
-    margin:  15px auto;
-    display: flex;
-    justify-content: center;
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
 }
 
-.card{
-    margin: auto 15px;
+.mn-only {
+  display: flex;
+}
+
+.card {
+  margin: auto 15px;
+}
+
+@media only screen and (min-width: 601px) {
+  .mb-only {
+    display: none;
+  }
 }
