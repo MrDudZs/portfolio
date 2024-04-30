@@ -29,21 +29,19 @@ body {
 }
 
 .main-mb {
+  background: transparent;
   position: absolute;
-  top: 70%;
-  bottom: 25%;
-  left: 0px;
-  right: 0px;
-
-  color: #fff;
+  left: 0%;
+  right: 0%;
+  top: 18%;
+  bottom: -50%;
+  z-index: -1;
   display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  width: 90%;
-
-  box-shadow: white;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  color: white;
 }
 
 h4 {
@@ -68,6 +66,7 @@ h4 {
   text-shadow: -1px -1px 3px #020202, 2px 2px 4px #1b1b1b;
 }
 
+/*Images*/
 #profilePicture {
   justify-self: center;
   height: 150px;
