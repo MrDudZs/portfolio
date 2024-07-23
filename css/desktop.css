@@ -5,16 +5,11 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*
-greenish: 1f932d
-blueL 0090ff
-*/
-
 .header-mn {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  background-color: #0C7C59;
+  background-color: #111111;
   border-bottom-right-radius: 45px;
   border-bottom-left-radius: 45px;
   box-shadow: white;
@@ -29,17 +24,23 @@ blueL 0090ff
   bottom: 25%;
   left: 0px;
   right: 0px;
+
   color: #fff;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
   width: 90%;
+
   box-shadow: white;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-mn {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #D8CFA3;
+  background-color: #111111;
   border-top-left-radius: 45px;
   border-top-right-radius: 45px;
   width: 100%;
@@ -49,8 +50,8 @@ blueL 0090ff
   bottom: -50%;
   box-shadow: white;
 
-  color: #111;
-  text-shadow: -1px -1px 3px #E0DDCF, 2px 2px 4px #1b1b1b;
+  color: #fff;
+  text-shadow: -1px -1px 3px #020202, 2px 2px 4px #1b1b1b;
 }
 
 /*NAV BAR*/
@@ -65,33 +66,30 @@ blueL 0090ff
   border-bottom: solid 1px #000000;
   border-left: solid 1px #000000;
   border-right: solid 1px #000000;
-
 }
 
-/*Index*/
-.homecard-mn {
-  position: relative;
-  z-index: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-/*Index Images*/
+/*Images*/
 #profilePicture {
+  justify-self: center;
   height: 250px;
   border-radius: 100%;
 }
 
-.pfp-background-mn {
+.profile-picture-mn {
   border-radius: 50%;
   background: #000000;
-  box-shadow: -10px -10px 14px #3f514b, 10px 10px 14px #3f514b;
+  box-shadow: -10px -10px 14px #00ffff, 10px 10px 14px #00ffff;
   animation: 3s infinite alternate rotate;
   height: 250px;
   width: 250px;
   position: absolute;
   z-index: -1;
+  left: 0%;
+  right: 0%;
+  top: -71%;
+  bottom: 0%;
 }
+
 
 /*Rotates shadow for profile picture*/
 @keyframes rotate {
