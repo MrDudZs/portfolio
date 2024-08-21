@@ -40,5 +40,5 @@ window.onload = function () {
     if (activeButton) {
       setActiveTab(activeButton);
     }
-}, 1000);
+}, 3000);
 };
