@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Links</title>
     <link rel="stylesheet" type="text/css" href="css/mobile.css" />
     <link
       rel="stylesheet"
@@ -19,18 +19,45 @@
   </head>
   <style>
     body {
-      background: rgb(71, 68, 72);
+      background: rgb(36, 99, 40);
+      background: -moz-linear-gradient(
+        90deg,
+        rgba(36, 99, 40, 1) 0%,
+        rgba(56, 153, 31, 1) 25%,
+        rgba(53, 181, 20, 1) 50%,
+        rgba(56, 153, 31, 1) 75%,
+        rgba(36, 99, 40, 1) 100%
+      );
+      background: -webkit-linear-gradient(
+        90deg,
+        rgba(36, 99, 40, 1) 0%,
+        rgba(56, 153, 31, 1) 25%,
+        rgba(53, 181, 20, 1) 50%,
+        rgba(56, 153, 31, 1) 75%,
+        rgba(36, 99, 40, 1) 100%
+      );
+      background: linear-gradient(
+        90deg,
+        rgba(36, 99, 40, 1) 0%,
+        rgba(56, 153, 31, 1) 25%,
+        rgba(53, 181, 20, 1) 50%,
+        rgba(56, 153, 31, 1) 75%,
+        rgba(36, 99, 40, 1) 100%
+      );
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#246328",endColorstr="#246328",GradientType=1);
     }
   </style>
   <body>
-    <div class="content-mn content-mb">
-      <div class="header-mn header-mb">
+    <div class="content-mn">
+      <div class="header-mn">
         <header>
-          <h1>Matthew Dudley</h1>
+          <h1>Links</h1>
         </header>
       </div>
-      <div class="navbar-mn navbar-mb">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="navbar-mn">
+        <nav
+          class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center"
+        >
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html"
               ><img
@@ -97,22 +124,33 @@
         </nav>
       </div>
 
-      <div class="main-mn main-mb">
-        <main class="homecard-mb">
-          <div class="homecard-mn">
-            <img
-              id="profilePicture"
-              src="images/profile-picture.png"
-              alt="Profile Picture"
-            />
-            <div class="pfp-background-mn profile-picture-mb"></div>
+      <div class="main-mn">
+        <main>
+          <div
+            class="badge-base LI-profile-badge"
+            data-locale="en_US"
+            data-size="medium"
+            data-theme="dark"
+            data-type="HORIZONTAL"
+            data-vanity="matthew-dudley-3901101bb"
+            data-version="v1"
+          >
+            <a
+              class="badge-base__link LI-simple-link"
+              href="https://uk.linkedin.com/in/matthew-dudley-3901101bb?trk=profile-badge"
+            ></a>
           </div>
-          <h4>Software Engineering Student</h4>
-          <h5 style="text-align: center">Fullstack, Mobile and Game Developer</h5>
+          <div class="github-title">
+            <h5><b>GitHub <img src="https://s2.svgbox.net/social.svg?color=white&ic=github" style="height: 25px;"></b></h5>
+            <div class="github-card">
+                
+                <h6>MrDudZs</h6>
+            </div>
+          </div>
         </main>
       </div>
 
-      <div class="footer-mn footer-mb" style="position: absolute; bottom: -50%">
+      <div class="footer-mn">
         <footer>
           <h6 style="text-align: center">
             Website Created By:<br />Matthew Dudley
@@ -120,6 +158,12 @@
         </footer>
       </div>
     </div>
+    <script
+      src="https://platform.linkedin.com/badges/js/profile.js"
+      async
+      defer
+      type="text/javascript"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
