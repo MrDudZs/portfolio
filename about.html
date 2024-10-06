@@ -4,303 +4,154 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-    <link rel="stylesheet" type="text/css" href="css/mobile.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="only screen and (min-width:601px)"
-      href="css/desktop.css"
-    />
+    <link rel="icon" type="image/x-icon" href="images/page-icons/page-icon.ico">
+
+    <link href="css/main.css" rel="stylesheet" />
+
+    <link href="css/text.css" rel="stylesheet" />
 
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <style>
-    body {
-      background: #474448;
-    }
-  </style>
   <body>
-    <div class="content-mn content-mb">
-      <div class="header-mn header-mb">
-        <header>
-          <h1>About</h1>
-        </header>
-      </div>
-      <div class="navbar-mn">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"
-              ><img
-                src="https://s2.svgbox.net/hero-solid.svg?color=FFFFFF&ic=home"
-                style="width: 30px; height: 30px"
-            /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="about.html"
-                    >About</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="links.html">Links</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Projects
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                      <a class="dropdown-item" href="#"
-                        >Currency Transfer Application</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">E.D.R.Ms</a>
-                    </li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="https://github.com/MrDudZs?tab=repositories"
-                        >GitHub Repositories</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
+    <div class="container">
+      <header>
+        <h1 class="txt-white">Matthew Dudley</h1>
+        <div class="topnav" id="topnav">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="links.html">Links</a>
+          <a
+            href="javascript:void(0);"
+            style="display: none"
+            class="icon"
+            onclick="myFunction()"
+          >
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </header>
+      <main>
+        <div class="page-card card-big">
+          <div class="card-title txt-align-C">
+            <h2>About Me</h2>
           </div>
-        </nav>
-      </div>
+        </div>
 
-      <div class="main-mn main-mb">
-        <main>
-          <div class="top-mn top-mb">
-            <div
-              class="card"
-              style="width: 18rem; background-color: rgba(255, 255, 255, 0.75)"
-            >
-              <div class="card-body">
-                <img
-                  src="images/profile-picture.png"
-                  class="card-img-top"
-                  alt="profile-picture"
-                />
-                <h5 class="card-title" style="text-align: center">
-                  <u>Who Am I?</u>
-                </h5>
-                <p class="card-text" style="text-align: center">
-                  <u>
-                    I am Matthew Dudley.
-                    <br />
-                    Junior Software Engineering Student at Sheffield Hallam
-                    University.
-                  </u>
-                </p>
-              </div>
-            </div>
+        <div class="page-card txt-align-C">
+          <div class="page-title">
+            <h2>Page Content</h2>
           </div>
-          <div class="mb-only">
-            <div
-              class="accordion accordion-flush opacity-75"
-              id="accordionFlushExample"
-              style="max-width: 100%"
-            >
-              <div class="accordion-item text-dark">
-                <h2 class="accordion-header" id="flush-headingOne">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseOne"
-                  >
-                    <u>About Me:</u>
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseOne"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingOne"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    <p class="card-text" style="text-align: left">
-                      <u>
-                        I have been programming since Primary school. I started
-                        with Turtle Academy. Picking up Website development in
-                        Year Eight using Notepad and now using Visual Studio
-                        Code.
-                      </u>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseTwo"
-                  >
-                    <u>My Background:</u>
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingTwo"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    <p class="card-text" style="text-align: left">
-                      <u>
-                        I am an expereienced Team Leader leading groups on
-                        exercises out in the field and in the office.
-                        <br /><br />
-                        I've been in ICT for Two Years where my most noticable
-                        role was overseeing an internal department.
-                      </u>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseThree"
-                  >
-                    <u>My Tech Stack:</u>
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseThree"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingThree"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    <p class="card-text" style="text-align: center">
-                      <u>
-                        PHP <br />
-                        HTML5 & CSS3 <br />
-                        JavaScript <br />
-                        BOOTSTRAP <br />
-                        MYSQL <br />
-                        C#
-                      </u>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="page-summary txt-align-C">
+            <table class="txt-align-C">
+              <thead>
+                <tr>
+                  <th class="txt-align-C">Content</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="txt-align-C"><a href="#background" class="a-pagecontent">Background</a></td>
+                </tr>
+                <tr>
+                  <td class="txt-align-C"><a href="#skills" class="a-pagecontent">Skills</a></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div class="bottom-mn bottom-mb">
-            <div class="mn-only">
-              <div
-                class="card"
-                style="
-                  width: 18rem;
-                  background-color: rgba(255, 255, 255, 0.75);
-                "
-              >
-                <div class="card-body">
-                  <h5 class="card-title" style="text-align: center">
-                    <u>About Me:</u>
-                  </h5>
-                  <p class="card-text" style="text-align: center">
-                    <u>
-                      I have been programming since primary school. I started
-                      with Turtle Academy, and since then I started to use
-                      Python as a gateway into programming and started making
-                      websites using a Notepad document. As of 2024, I have
-                      started my journey into Java
-                    </u>
-                  </p>
-                </div>
-              </div>
-              <div
-                class="card"
-                style="
-                  width: 18rem;
-                  background-color: rgba(255, 255, 255, 0.75);
-                "
-              >
-                <div class="card-body">
-                  <h5 class="card-title" style="text-align: center">
-                    <u>My Background:</u>
-                  </h5>
-                  <p class="card-text" style="text-align: center">
-                    <u>
-                      I am an expereienced Team Leader leading groups on
-                      exercises out in the field and in the office. <br />
-                      I've been in ICT for Two Years where my most noticable
-                      role was overseeing an internal department.
-                    </u>
-                  </p>
-                </div>
-              </div>
-              <div
-                class="card"
-                style="
-                  width: 18rem;
-                  background-color: rgba(255, 255, 255, 0.75);
-                "
-              >
-                <div class="card-body">
-                  <h5 class="card-title" style="text-align: center">
-                    <u>My Tech Stack:</u>
-                  </h5>
-                  <p class="card-text" style="text-align: center">
-                    <u>
-                      PHP <br />
-                      HTML5 & CSS3 <br />
-                      JavaScript <br />
-                      BOOTSTRAP <br />
-                      MYSQL <br />
-                      C#
-                    </u>
-                  </p>
-                </div>
-              </div>
-            </div>
+        </div>
+
+        <div class="page-card txt-align-C card-align-C">
+          <div id="background" class="page-title">
+            <h2>Background</h2>
           </div>
-        </main>
-      </div>
+          <div class="page-summary">
+            <p>
+              My background is in ICT & Development. <br />
+              <br />
+
+              Programming: <br />
+              <br />
+              Young:<br />
+              My Time in ICT started when I was young when we were taught to use
+              turtle and plot paths back when I was 6 years old.
+              <br /><br />
+              Teen Years:<br />
+              During my later years into the beginning of High School, I started
+              to develop simple websites using notepad.txt documents saved as
+              .html to create very basic static sites. Over time I moved on to
+              develop more advanced websites with the use of Visual Studio Code.
+              <br />
+              While learning the basics of website development and then Python
+              later on in High School I wanted to push myself and started
+              developing very basic console applications with C#.
+              <br /><br />
+              Young Adult:<br />
+              Jumping into my very early adult years/late teens I worked on an
+              ICT Support desk where I was able to befriend our inhouse
+              "business integrated Systems" (BIS) developer who inspired me to
+              be where I am now studying a BEng in Software Engineering.
+              <br />
+              <br />
+              Now:<br />
+              After a year of studying at Sheffield Hallam, I have already
+              developed some amazing systems on my course along with planning
+              and developing my personal projects most of which are available on
+              my GitHub and viewable on the Projects page.
+            </p>
+          </div>
+        </div>
+
+        <div class="page-card txt-align-C card-small card-align-C">
+          <div id="skills" class="page-title">
+            <h2>My Skills:</h2>
+          </div>
+          <div class="page-summary">
+            <table>
+              <thead>
+                <tr>
+                  <th>Skills</th>
+                  <th>Understanding</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>HTML</td>
+                  <td>Moderate</td>
+                </tr>
+                <tr>
+                  <td>CSS</td>
+                  <td>Moderate</td>
+                </tr>
+                <tr>
+                  <td>JavaScript</td>
+                  <td>Moderate</td>
+                </tr>
+                <tr>
+                  <td>PHP</td>
+                  <td>Moderate</td>
+                </tr>
+                <tr>
+                  <td>C#</td>
+                  <td>Moderate</td>
+                </tr>
+                <tr>
+                  <td>Python</td>
+                  <td>Moderate</td>
+                </tr>
+                <tr>
+                  <td>Java</td>
+                  <td>Basic</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </main>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/nav.js"></script>
   </body>
 </html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="icon" type="image/x-icon" href="images/page-icons/page-icon.ico">
+
+    <link href="css/main.css" rel="stylesheet" />
+
+    <link href="css/text.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="txt-white">Matthew Dudley</h1>
+        <div class="topnav" id="topnav">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="links.html">Links</a>
+          <a
+            href="javascript:void(0);"
+            style="display: none"
+            class="icon"
+            onclick="myFunction()"
+          >
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </header>
+      <main>
+        <div class="page-card card-big">
+          <div class="card-title txt-align-C">
+            <h2>Projects</h2>
+          </div>
+        </div>
+
+        <div class="page-card txt-align-C card-align-C">
+          <div class="page-title">
+            <h2>Summary</h2>
+          </div>
+          <div class="page-summary">
+            <p>
+              Welcome to my Projects page!<br />
+              <br />
+              Here you will find my projects which I have developed both solo or
+              in a group for university and my own interests. (All Labelled)
+            </p>
+          </div>
+        </div>
+        <div class="page-card txt-align-C card-align-C">
+          <div class="page-title">
+            <h2>EDRMS (Group)</h2>
+          </div>
+          <div class="page-summary">
+            <div class="container">
+              <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img
+                  src="images/page-images/EDRMs-Dash.jpg"
+                  style="width: 100%"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img
+                  src="images/page-images/EDRMs-Docs.jpg"
+                  style="width: 100%"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img
+                  src="images/page-images/EDRMs-Audit.jpg"
+                  style="width: 100%"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img
+                  src="images/page-images/EDRMs-Admin.jpg"
+                  style="width: 100%"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img
+                  src="images/page-images/EDRMs-Login.jpg"
+                  style="width: 100%"
+                />
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+
+              <div class="row">
+                <div class="column">
+                  <img
+                    class="demo cursor"
+                    src="images/page-images/EDRMs-Dash.jpg"
+                    style="width: 100%"
+                    onclick="currentSlide(1)"
+                    alt="Dashboard"
+                  />
+                </div>
+                <div class="column">
+                  <img
+                    class="demo cursor"
+                    src="images/page-images/EDRMs-Docs.jpg"
+                    style="width: 100%"
+                    onclick="currentSlide(2)"
+                    alt="Documents"
+                  />
+                </div>
+                <div class="column">
+                  <img
+                    class="demo cursor"
+                    src="images/page-images/EDRMs-Audit.jpg"
+                    style="width: 100%"
+                    onclick="currentSlide(3)"
+                    alt="Audit"
+                  />
+                </div>
+                <div class="column">
+                  <img
+                    class="demo cursor"
+                    src="images/page-images/EDRMs-Admin.jpg"
+                    style="width: 100%"
+                    onclick="currentSlide(4)"
+                    alt="Admin"
+                  />
+                </div>
+                <div class="column">
+                  <img
+                    class="demo cursor"
+                    src="images/page-images/EDRMs-Login.jpg"
+                    style="width: 100%"
+                    onclick="currentSlide(5)"
+                    alt="Login"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="js/nav.js"></script>
+    <script src="js/carousel.js"></script>
+  </body>
+</html>

@@ -4,122 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="css/mobile.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="only screen and (min-width:601px)"
-      href="css/desktop.css"
-    />
+    <link rel="icon" type="image/x-icon" href="images/page-icons/page-icon.ico">
+
+    <link href="css/main.css" rel="stylesheet" />
+
+    <link href="css/text.css" rel="stylesheet" />
 
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <style>
-    body {
-      background: rgb(71, 68, 72);
-    }
-  </style>
   <body>
-    <div class="content-mn content-mb">
-      <div class="header-mn header-mb">
-        <header>
-          <h1>Matthew Dudley</h1>
-        </header>
-      </div>
-      <div class="navbar-mn navbar-mb">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"
-              ><img
-                src="https://s2.svgbox.net/hero-solid.svg?color=FFFFFF&ic=home"
-                style="width: 30px; height: 30px"
-            /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="about.html"
-                    >About</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="links.html">Links</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Projects
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                      <a class="dropdown-item" href="#"
-                        >Currency Transfer Application</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">E.D.R.Ms</a>
-                    </li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="https://github.com/MrDudZs?tab=repositories"
-                        >GitHub Repositories</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
+    <div class="container">
+      <header>
+        <h1 class="txt-white">Matthew Dudley</h1>
+        <div class="topnav" id="topnav">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="links.html">Links</a>
+          <a href="javascript:void(0);" style="display: none;" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </header>
+      <main>
+        <div class="page-card card-big">
+          <div class="card-title txt-align-C">
+            <h2>Welcome</h2>
           </div>
-        </nav>
-      </div>
+        </div>
 
-      <div class="main-mn main-mb">
-        <main class="homecard-mb">
-          <div class="homecard-mn">
+        <div class="page-card txt-align-C">
+          <div id="whoAmI" class="page-title">
+            <h2>Who am I?</h2>
+          </div>
+          <div class="page-summary">
             <img
-              id="profilePicture"
-              src="images/profile-picture.png"
-              alt="Profile Picture"
+              class="image-small"
+              src="images/page-images/profile-picture.png"
             />
-            <div class="pfp-background-mn profile-picture-mb"></div>
+            <p>
+              I am Matthew Dudley a Junior Software Engineer<br />
+              studying at Sheffield Hallam University.
+              <br />
+              <br />
+              I tend to specialise in backend and databases hence the minimal
+              design...<br />
+              though working on that
+            </p>
           </div>
-          <h4>Software Engineering Student</h4>
-          <h5 style="text-align: center">Fullstack, Mobile and Game Developer</h5>
-        </main>
-      </div>
-
-      <div class="footer-mn footer-mb" style="position: absolute; bottom: -50%">
-        <footer>
-          <h6 style="text-align: center">
-            Website Created By:<br />Matthew Dudley
-          </h6>
-        </footer>
-      </div>
+        </div>
+      </main>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/nav.js"></script>
   </body>
 </html>
