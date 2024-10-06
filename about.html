@@ -4,22 +4,154 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-    <link rel="stylesheet" type="text/css" href="css/mobile.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="only screen and (min-width:601px)"
-      href="css/desktop.css"
-    />
+    <link rel="icon" type="image/x-icon" href="images/page-icons/page-icon.ico">
+
+    <link href="css/main.css" rel="stylesheet" />
+
+    <link href="css/text.css" rel="stylesheet" />
 
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="txt-white">Matthew Dudley</h1>
+        <div class="topnav" id="topnav">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="links.html">Links</a>
+          <a
+            href="javascript:void(0);"
+            style="display: none"
+            class="icon"
+            onclick="myFunction()"
+          >
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </header>
+      <main>
+        <div class="page-card card-big">
+          <div class="card-title txt-align-C">
+            <h2>About Me</h2>
+          </div>
+        </div>
 
-</head>
-<body>
+        <div class="page-card txt-align-C">
+          <div class="page-title">
+            <h2>Page Content</h2>
+          </div>
+          <div class="page-summary txt-align-C">
+            <table class="txt-align-C">
+              <thead>
+                <tr>
+                  <th class="txt-align-C">Content</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="txt-align-C"><a href="#background" class="a-pagecontent">Background</a></td>
+                </tr>
+                <tr>
+                  <td class="txt-align-C"><a href="#skills" class="a-pagecontent">Skills</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
 
-</body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="page-card txt-align-C card-align-C">
+          <div id="background" class="page-title">
+            <h2>Background</h2>
+          </div>
+          <div class="page-summary">
+            <p>
+              My background is in ICT & Development. <br />
+              <br />
+
+              Programming: <br />
+              <br />
+              Young:<br />
+              My Time in ICT started when I was young when we were taught to use
+              turtle and plot paths back when I was 6 years old.
+              <br /><br />
+              Teen Years:<br />
+              During my later years into the beginning of High School, I started
+              to develop simple websites using notepad.txt documents saved as
+              .html to create very basic static sites. Over time I moved on to
+              develop more advanced websites with the use of Visual Studio Code.
+              <br />
+              While learning the basics of website development and then Python
+              later on in High School I wanted to push myself and started
+              developing very basic console applications with C#.
+              <br /><br />
+              Young Adult:<br />
+              Jumping into my very early adult years/late teens I worked on an
+              ICT Support desk where I was able to befriend our inhouse
+              "business integrated Systems" (BIS) developer who inspired me to
+              be where I am now studying a BEng in Software Engineering.
+              <br />
+              <br />
+              Now:<br />
+              After a year of studying at Sheffield Hallam, I have already
+              developed some amazing systems on my course along with planning
+              and developing my personal projects most of which are available on
+              my GitHub and viewable on the Projects page.
+            </p>
+          </div>
+        </div>
+
+        <div class="page-card txt-align-C card-small card-align-C">
+          <div id="skills" class="page-title">
+            <h2>My Skills:</h2>
+          </div>
+          <div class="page-summary">
+            <table>
+              <thead>
+                <tr>
+                  <th>Skills</th>
+                  <th>Understanding</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>HTML</td>
+                  <td>Moderate</td>
+                </tr>
+                <tr>
+                  <td>CSS</td>
+                  <td>Moderate</td>
+                </tr>
+                <tr>
+                  <td>JavaScript</td>
+                  <td>Moderate</td>
+                </tr>
+                <tr>
+                  <td>PHP</td>
+                  <td>Moderate</td>
+                </tr>
+                <tr>
+                  <td>C#</td>
+                  <td>Moderate</td>
+                </tr>
+                <tr>
+                  <td>Python</td>
+                  <td>Moderate</td>
+                </tr>
+                <tr>
+                  <td>Java</td>
+                  <td>Basic</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="js/nav.js"></script>
+  </body>
 </html>
