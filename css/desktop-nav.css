@@ -1,0 +1,104 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navH3{
+    visibility: hidden;
+    padding: 5px 5px 10px 15px;
+    text-size-adjust: inherit;
+    text-align: center;
+}
+
+button{
+    border: none;
+    background: aqua;
+    border-radius: 100%;
+    /* padding: 20px 20px 25px 20px; */
+}
+
+.earth{
+    background-color: rgb(20, 163, 20);
+    padding: 20px 20px 20px 20px;
+    border-radius: 100%;
+}
+.earth-btn{
+    padding: 25px 15px 15px 0px;
+    width: fit-content;
+}
+
+.tatooine{
+    background-color: rgb(231, 141, 61);
+    padding: 20px 20px 20px 20px;
+    border-radius: 100%;
+}
+.tatooine-btn{
+    padding: 25px 15px 15px 0px;
+    width: fit-content;
+}
+
+.kamino{
+    background-color: rgb(4, 161, 161);
+    padding: 20px 20px 20px 20px;
+    border-radius: 100%;
+}
+.kamino-btn{
+    padding: 34px 0px 25px 13px;
+    width: fit-content;
+}
+
+.mandalore{
+    background-color: rgb(215, 215, 216);
+    padding: 25px 10px 25px 10px;
+    border-radius: 100%;
+}
+.mandalore-btn{
+    padding: 25px 15px 15px 0px;
+    width: fit-content;
+}
+
+.coruscant{
+    background-color: rgb(236, 76, 17);    
+    padding: 10px 15px 15px 10px;
+    border-radius: 100%;
+}
+.coruscant-btn{
+    padding: 25px 15px 15px 0px;
+    width: fit-content;
+}
+
+
+/* Planet interaction */
+.earth:hover .navH3{
+    visibility: inherit;
+}
+
+.tatooine:hover .navH3{
+    visibility: inherit;
+}
+
+.kamino:hover .navH3{
+    visibility: inherit;
+}
+.mandalore:hover .navH3{
+    visibility: inherit;
+}
+.coruscant:hover .navH3{
+    visibility: inherit;
+    color: rgb(236, 76, 17);    
+}
+
+/* planet complimentry colours */
+.tat-sand{
+    background-color: rgb(196, 114, 43);
+}
+.kam-blue{
+    background-color: rgb(17, 100, 100);
+}
+.man-gray{
+    background-color: rgb(185, 185, 185);
+}
+.cor-black{
+    background-color: rgb(15, 14, 13);
+}
