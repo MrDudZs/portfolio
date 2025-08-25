@@ -202,6 +202,28 @@ h2{margin: 0;}
   border: 1px solid rgba(0, 0, 0, 1);
 }
 
+.page-summary details {
+  margin-bottom: 1em;
+}
+
+/* Video */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 /* Responsive Layout */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
