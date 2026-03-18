@@ -1,0 +1,253 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #a66b3a;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #a66b3a;
+    --bs-btn-border-color: #8e5625;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #a66b3a;
+    --bs-btn-hover-border-color: #8e5625;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #8e5625;
+    --bs-btn-active-border-color: #8e5625;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #8e5625;
+    --bs-btn-disabled-border-color: #8e5625;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #94d07c;
+    margin-bottom: 60px;
+}
+
+header {
+    background-color: #1a1a1a;
+}
+
+main {
+    background-color: #345d22;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 100vsw;
+}
+
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 100vsw;
+}
+
+.card {
+    background-color: #8e5625;
+}
+
+footer {
+    background-color: #1a1a1a;
+}
+
+.border-tb-custom {
+    border-top: #1a1a1a 1px solid;
+    border-bottom: #1a1a1a 1px solid;
+}
+
+.border-top-custom {
+    border-top: #1a1a1a 1px solid;
+}
+
+.border-bottom-custom {
+    border-bottom: #1a1a1a 1px solid;
+}
+
+.form-floating>.form-control-plaintext::placeholder,
+.form-floating>.form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
+}
+
+.form-floating>.form-control-plaintext:focus::placeholder,
+.form-floating>.form-control:focus::placeholder {
+    text-align: start;
+}
+
+.img-cir {
+    border-radius: 50%;
+}
+
+.img-sm {
+    width: 256px;
+    height: auto;
+}
+
+.end-25 {
+    right: 25% !important;
+}
+
+.end-75 {
+    right: 75% !important;
+}
+
+
+.bg-peach {
+    background-color: #f4a462;
+}
+
+.bg-plumb{
+    background-color: #e76e50;
+}
+
+.bg-pine{
+    background-color: #198754;
+}
+
+.bg-birch{
+    background-color: #609c3a;
+}
+
+@media (max-width: 768px) {
+  .img-hide {
+    display: none;
+  }
+}
+
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Carousel styling */
+.carousel-container {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.carousel-container .carousel {
+  position: relative;
+}
+
+.carousel-container .carousel-inner {
+  position: relative;
+}
+
+.carousel-container .carousel-item img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+.carousel-container .carousel-control-prev,
+.carousel-container .carousel-control-next {
+  width: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  padding: 10px 8px;
+}
+
+.carousel-container .carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-container .carousel-control-next {
+  right: 10px;
+}
+
+.carousel-container .carousel-indicators {
+  bottom: -50px;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .carousel-container {
+    max-width: 90%;
+  }
+
+  .carousel-container .carousel-control-prev {
+    left: -60px;
+  }
+
+  .carousel-container .carousel-control-next {
+    right: -60px;
+  }
+}

@@ -1,75 +1,168 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="icon" type="image/x-icon" href="images/page-icons/page-icon.ico">
-    <script src="js/nav.js"></script>
     <link
-      rel="stylesheet"
-      media="only screen and (min-width: 1000px)"
-      href="css/desktop.css"
+      rel="icon"
+      type="image/x-icon"
+      href="images/page-icons/page-icon.ico"
     />
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/shared.css" />
   </head>
   <body>
-    <div id="page-container">
-      <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-          >&times;</a
-        >
-        <a href="index.html">Home</a>
-        <a href="skills.html">Skills</a>
-        <a href="projects.html">Projects</a>
-        <a href="links.html">Links</a>
-      </div>
-      <span class="navBar" onclick="openNav()">&#9776;</span>
-
-      <div class="background">
-        <div class="stars"></div>
-        <div class="shooting-star"></div>
-        <div class="shooting-star"></div>
-        <div class="shooting-star"></div>
-        <div class="shooting-star"></div>
-        <div class="shooting-star"></div>
-      </div>
-      <div class="main-container">
-        <section>
-          <h2>Welcome I am:</h2>
-          <h2 id="nameH2"><b>Matthew Dudley</b></h2>
-          <p>
-            A Software Engineering Student at Sheffield Hallam.<br />
-            This is my own portfolio Website, for more of my work see
-            <a href="projects.html">projects</a>
+    <header>
+      <nav
+        class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom-custom navbar-light box-shadow mb-3"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="index.html">Matt Dudley</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target=".navbar-collapse"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="navbar-collapse collapse d-sm-inline-flex justify-content-between"
+          >
+            <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="about.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="experience.html"
+                  >Work Experience</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid ps-0">
+      <main class="text-light row border-tb-custom">
+        <div class="col-md-6">
+          <p class="fs-4 fw-bold">
+            Hello! I am Matt,<br />
+            BEng (Hons) Software Engineering Student at Sheffield Hallam
+            University.
           </p>
-        </section>
-        
-        <aside><img id="pfp" src="images/index-page/pfp.jpg" /></aside>
-      </div>
-      <div class="moon">
-        <div id="mc1"></div>
-        <div id="mc2"></div>
-        <div id="mc3"></div>
-        <div id="mc4"></div>
-      </div>
-      <div name="footer">
-        <div class="atmos"></div>
-        <div class="atmos"></div>
-        <div class="atmos"></div>
-        <footer>
-          <h4>Website created by: Matthew Dudley | 2025</h4>
-        </footer>
-        <div id="planet"></div>
-        <div class="cloud" id="c1"></div>
-        <div class="cloud" id="c2"></div>
-        <div class="cloud" id="c3"></div>
-        <div class="cloud" id="c4"></div>
-        <div class="cloud" id="c5"></div>
-        <div class="water" id="w1"></div>
-        <div class="water" id="w2"></div>
-        <div class="water" id="w3"></div>
-        <div class="water" id="w4"></div>
-      </div>
+          <p class="fs-5 fw-light">
+            I am currently in my final semester at Sheffield Hallam University
+            and am looking for any ICT role, from Helpdesk to Software
+            Engineering and more.<br />
+            My time both in work and at university has exposed me to many
+            different experiences and opportunities throughout the years, from
+            working on an IT Helpdesk to creating, hosting, and running DevOps
+            for projects, as well as serving as a student mentor.
+          </p>
+          <a
+            class="fs-6 fw-light btn btn-primary"
+            href="https://www.linkedin.com/in/matthew-dudley-3901101bb/"
+            >LinkedIn</a
+          >
+          <a
+            class="fs-6 fw-light btn btn-primary"
+            href="https://github.com/MrDudZs"
+            >GitHub</a
+          >
+          <a href="about.html" class="btn btn-primary">Read More</a>
+        </div>
+        <img
+          class="img-hide img-sm col-mb-6"
+          src="images/index-page/pfp.jpg"
+          alt="Image of me"
+        />
+      </main>
+      <section class="bg-birch row text-dark mt-2 border-top-custom">
+        <div class="mb-2">
+          <h2 class="fs-4 fw-bold">Current Project:</h2>
+          <div class="card mb-2">
+            <div class="card-header text-center text-light">
+              <h3>Development Project</h3>
+            </div>
+            <div class="card-body fw-normal text-light text-start">
+              <p class="fw-normal">
+                This is a student‑led research module where I have a supervisor
+                who will only support and guide me, who has a background in the
+                area of my chosen subject.
+                <br />
+                <br />
+                Researching UI/UX (for accessibility) & Software Security best
+                practices within secure systems.
+                <br />
+                Develop and test a prototype HR system to showcase best
+                practices and document findings regarding testing.
+                <br />
+              </p>
+              <a href="projects.html" class="btn btn-primary">Read More</a>
+            </div>
+            <div class="card-footer">Started: 2026 | Status: Ongoing</div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-pine row text-dark mt-2 mb-2 border-top-custom">
+        <div class="mb-2">
+          <h2 class="fs-4 fw-bold">Work Experience</h2>
+          <div class="card mb-2">
+            <div class="card-header text-center text-light">
+              <h3>Student Mentor</h3>
+            </div>
+            <div class="card-body fw-normal text-light text-start">
+              <p class="fw-normal">
+                <b>Coffee Mornings</b>
+                <br />
+                I cover one session a week on Tuesday mornings for students
+                within the Department of Computing. These sessions give students
+                the opportunity to talk about how their course is going, discuss
+                topics around programming, explore work placement options, and
+                gain insight into what working in the industry is like. <br />
+                <br />
+
+                <b>1‑to‑1 Mentoring</b>
+                <br />
+                This involves meeting individually with students who request
+                mentoring. During these sessions, I check in on how they are
+                progressing with their studies, discuss their goals, and support
+                them with managing deadlines. I provide guidance with
+                programming, signpost services that can help them develop in
+                specific areas, and offer a space for them to talk through any
+                challenges they are facing.
+              </p>
+            </div>
+            <div class="card-footer">
+              Part-time Sep 2024 - Present | Status: Ongoing
+            </div>
+          </div>
+
+          <a href="projects.html" class="btn btn-primary">Further Experience</a>
+        </div>
+      </section>
     </div>
+
+    <footer class="border-top-custom footer text-light container-fluid pb-5">
+      <div class="container">
+        <p>2026 - Matthew Dudley - <a href="about.html">About Me</a></p>
+      </div>
+    </footer>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/site.js"></script>
   </body>
 </html>

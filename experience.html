@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Work Experience</title>
     <link
       rel="icon"
       type="image/x-icon"
@@ -55,16 +55,17 @@
         </div>
       </nav>
     </header>
-    <div class="container-fluid">
-      <main class="text-light row text-center border-tb-custom">
-        <div>
-          <h2>My Projects</h2>
+    <div class="container-fluid ps-0">
+      <main class="text-light row border-tb-custom">
+        <div class="col-md-6">
+          <p class="fs-4 fw-bold">My work experience</p>
+          <p class="fs-5 fw-light">
+            On this page you will find all my experience within work, and
+            freelance.
+          </p>
         </div>
       </main>
-      <section class="bg-birch row text-dark mt-2 mb-2 border-top-custom">
-        <div class="mb-2">
-          <h2 class="fs-4 fw-bold">University:</h2>
-        </div>
+      <section class="bg-peach row text-dark mt-2 border-top-custom">
         <div>
           <button id="sortToggle" class="btn btn-primary switch-btn">
             Sort: Newest
@@ -73,13 +74,16 @@
         <div id="cardContainer" class="row g-3"></div>
       </section>
     </div>
+
     <footer class="border-top-custom footer text-light container-fluid pb-5">
       <div class="container">
         <p>2026 - Matthew Dudley - <a href="about.html">About Me</a></p>
       </div>
     </footer>
-    <script src="js/projects.js"></script>
+
+    <script src="js/workexp-cards.js"></script>
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/site.js"></script>
   </body>
 </html>
