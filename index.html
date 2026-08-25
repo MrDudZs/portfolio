@@ -10,79 +10,42 @@
       href="images/page-icons/page-icon.ico"
     />
     <script type="importmap"></script>
+    <script src="/js/includes.js" defer></script>
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/site.css" />
     <link rel="stylesheet" href="css/shared.css" />
   </head>
   <body>
-    <header>
-      <nav
-        class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom-custom navbar-light box-shadow mb-3"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand text-light" href="index.html">Matt Dudley</a>
-          <button
-            class="navbar-toggler bg-white"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target=".navbar-collapse"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="navbar-collapse collapse d-sm-inline-flex justify-content-between"
-          >
-            <ul class="navbar-nav flex-grow-1">
-              <li class="nav-item">
-                <a class="nav-link text-light" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="about.html">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="experience.html"
-                  >Work Experience</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    <div id="header">
+      <div data-include="includes/header.html"></div>
+    </div>
     <div class="container-fluid ps-0">
       <main class="text-light row border-tb-custom">
         <div class="col-md-6">
           <p class="fs-4 fw-bold">
             Hello! I am Matt,<br />
-            BEng (Hons) Software Engineering Student at Sheffield Hallam
-            University.
+            Graduate Software Engineering.
           </p>
-          <p class="fs-5 fw-light">
-            I am currently in my final semester at Sheffield Hallam University
-            and am looking for any ICT role, from Helpdesk to Software
-            Engineering and more.<br />
+          <p class="fs-5 text-light">
+            I have recently Graduatated Sheffield Hallam University with a bachelor's with Honnors
+            in Software Engineering with a Second Class (Devision 1)  2:1.
+            <br />
             My time both in work and at university has exposed me to many
             different experiences and opportunities throughout the years, from
-            working on an IT Helpdesk to creating, hosting, and running DevOps
-            for projects, as well as serving as a student mentor.
+            working on an IT Helpdesk to planning, testing and creating projects, to hosting and running DevOps
+            for those projects.
           </p>
           <a
-            class="fs-6 fw-light btn btn-primary"
+            class="fs-6 text-dark btn btn-primary"
             href="https://www.linkedin.com/in/matthew-dudley-3901101bb/"
             >LinkedIn</a
           >
           <a
-            class="fs-6 fw-light btn btn-primary"
+            class="fs-6 text-dark btn btn-primary"
             href="https://github.com/MrDudZs"
             >GitHub</a
           >
-          <a href="about.html" class="btn btn-primary">Read More</a>
+          <a href="about.html" class="btn btn-primary text-dark">Read More</a>
         </div>
         <img
           class="img-hide img-sm col-mb-6"
@@ -90,7 +53,7 @@
           alt="Image of me"
         />
       </main>
-      <section class="bg-birch row text-dark mt-2 border-top-custom">
+      <section class="bg-jetblack row text-light mt-2 border-top-custom">
         <div class="mb-2">
           <h2 class="fs-4 fw-bold">Current Project:</h2>
           <div class="card mb-2">
@@ -115,11 +78,13 @@
                 <br />
               </p>
             </div>
-            <div class="card-footer">Started: 2026 | Status: Ongoing</div>
+            <div class="card-footer text-light">
+              Started: 2026 | Status: Ongoing
+            </div>
           </div>
         </div>
       </section>
-      <section class="bg-pine row text-dark mt-2 mb-2 border-top-custom">
+      <section class="bg-jetblack row text-light mt-2 mb-2 border-top-custom">
         <div class="mb-2">
           <h2 class="fs-4 fw-bold">Current Work Experience</h2>
           <div class="card mb-2">
@@ -148,21 +113,20 @@
                 challenges they are facing.
               </p>
             </div>
-            <div class="card-footer">
+            <div class="card-footer text-light">
               Part-time Sep 2024 - Present | Status: Ongoing
             </div>
           </div>
 
-          <a href="projects.html" class="btn btn-primary">Further Experience</a>
+          <a href="projects.html" class="btn btn-primary text-dark"
+            >Further Experience</a
+          >
         </div>
       </section>
     </div>
-
-    <footer class="border-top-custom footer text-light container-fluid pb-5">
-      <div class="container">
-        <p>2026 - Matthew Dudley - <a href="about.html">About Me</a></p>
-      </div>
-    </footer>
+    <div id="footer">
+      <div data-include="includes/footer.html"></div>
+    </div>
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/site.js"></script>

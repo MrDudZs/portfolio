@@ -10,77 +10,33 @@
       href="images/page-icons/page-icon.ico"
     />
     <script type="importmap"></script>
+    <script src="/js/includes.js" defer></script>
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/site.css" />
     <link rel="stylesheet" href="css/shared.css" />
   </head>
   <body>
-    <header>
-      <nav
-        class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom-custom navbar-light box-shadow mb-3"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand text-light" href="index.html">Matt Dudley</a>
-          <button
-            class="navbar-toggler bg-white"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target=".navbar-collapse"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="navbar-collapse collapse d-sm-inline-flex justify-content-between"
-          >
-            <ul class="navbar-nav flex-grow-1">
-              <li class="nav-item">
-                <a class="nav-link text-light" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="about.html">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="experience.html"
-                  >Work Experience</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <div class="container-fluid ps-0">
-      <main class="text-light row border-tb-custom">
-        <div class="col-md-6">
-          <p class="fs-4 fw-bold">Work Experience</p>
-          <p class="fs-5 fw-light">
-            On this page you will find all my experience within work, and
-            freelance.
-          </p>
+    <div id="header">
+      <div data-include="includes/header.html"></div>
+    </div>
+    <div class="container-fluid">
+      <main class="text-light row text-center border-tb-custom">
+        <div>
+          <h2>Work Experience</h2>
         </div>
       </main>
-      <section class="bg-peach row text-dark mt-2 border-top-custom">
+      <section class="bg-jetblack row text-light mt-2 border-top-custom">
         <div>
-          <button id="sortToggle" class="btn btn-primary switch-btn">
+          <button id="sortToggle" class="btn btn-primary switch-btn text-dark">
             Sort: Newest
           </button>
         </div>
         <div id="cardContainer" class="row g-3"></div>
       </section>
     </div>
-
-    <footer class="border-top-custom footer text-light container-fluid pb-5">
-      <div class="container">
-        <p>2026 - Matthew Dudley - <a href="about.html">About Me</a></p>
-      </div>
-    </footer>
-
+    <div id="footer">
+      <div data-include="includes/footer.html"></div>
+    </div>
     <script src="js/workexp-cards.js"></script>
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

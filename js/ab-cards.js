@@ -10,7 +10,7 @@ const cardsData = [
     text_Desc1:
       "This involves meeting individually with students who request mentoring. During these sessions, I check in on how they are progressing with their studies, discuss their goals, and support them with managing deadlines. I provide guidance with programming, signpost services that can help them develop inspecific areas, and offer a space for them to talk through any challenges they are facing.",
     date: "2024-09-01",
-    status: "Ongoing",
+    status: "2026-07-01",
     button: "",
   },
   {
@@ -22,8 +22,8 @@ const cardsData = [
     text_Bold1: "End",
     text_Desc1:
       "Supported procurement and resource handling whilst training colleagues and work-experience students. Acted as point of contact for Russian and Ukrainian students, utilising limited Russian language skills to facilitate effective communication.",
-    date: "2024-09-01",
-    status: "Ongoing",
+    date: "2021-09-01",
+    status: "2023-08-31",
     button: "<a href='experience.html#ict-apprentice' class='btn btn-primary'>Read More</a>",
   },
 ];
@@ -45,7 +45,7 @@ function renderCards() {
   sortedCards.forEach((card) => {
     const cardHTML = `
       <div class="col-sm-6 mt-2">
-          <div class="card text-light">
+          <div class="card text-light" style="height:628px">
               <div class="card-header text-center text-light">
                 <h3>${card.title}</h3>
               </div>

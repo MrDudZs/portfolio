@@ -10,8 +10,8 @@ const cardsData = [
     text_Desc1:
       "I started by having a group meeting with the team and discussing points of what they would like to see, this evlovded into me making prototype pages using Figma, and I am going on to developing their page using GitHub Pages.",
     date: "2026-01-01",
-    status: "Ongoing",
-    button: "Link coming soon",
+    status: "On going",
+    button: "https://steelminions.github.io/",
   },
   {
     title: "Student Mentor",
@@ -23,7 +23,7 @@ const cardsData = [
     text_Desc1:
       "This involves meeting individually with students who request mentoring. During these sessions, I check in on how they are progressing with their studies, discuss their goals, and support them with managing deadlines. I provide guidance with programming, signpost services that can help them develop inspecific areas, and offer a space for them to talk through any challenges they are facing.",
     date: "2024-09-01",
-    status: "Ongoing",
+    status: "Ended",
     button: "",
   },
   {
@@ -57,7 +57,7 @@ function renderCards() {
   sortedCards.forEach((card) => {
     const cardHTML = `
               <div class="col-sm-6 mt-2">
-            <div class="card text-light">
+            <div class="card text-light" style="height:519.19px">
               <div class="card-header text-center text-light">
                 <h3>${card.title}</h3>
               </div>

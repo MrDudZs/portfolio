@@ -39,16 +39,16 @@ html {
 }
 
 body {
-    background-color: #94d07c;
+    background-color: #f4fff8;
     margin-bottom: 60px;
 }
 
 header {
-    background-color: #1a1a1a;
+    background-color: #000F08;
 }
 
 main {
-    background-color: #345d22;
+    background-color: #1C3738;
     padding: 20px;
     margin: 0 auto;
     max-width: 100vsw;
@@ -61,11 +61,11 @@ section {
 }
 
 .card {
-    background-color: #8e5625;
+    background-color: #4D4847;
 }
 
 footer {
-    background-color: #1a1a1a;
+    background-color: #000F08;
 }
 
 .border-tb-custom {
@@ -109,21 +109,24 @@ footer {
     right: 75% !important;
 }
 
-
-.bg-peach {
-    background-color: #f4a462;
+.bg-onyx{
+  background-color: #000F08;
 }
 
-.bg-plumb{
-    background-color: #e76e50;
+.bg-coolsteel {
+    background-color: #8BAAAD;
 }
 
-.bg-pine{
-    background-color: #198754;
+.bg-mintcream{
+    background-color: #F4FFF8;
 }
 
-.bg-birch{
-    background-color: #609c3a;
+.bg-charcoal{
+    background-color: #4D4847;
+}
+
+.bg-jetblack{
+    background-color: #1C3738;
 }
 
 @media (max-width: 768px) {

@@ -1,32 +1,47 @@
 // Card Newest - Oldest
 const cardsData = [
   {
+    title: "Accessibility & Security in Secure Systems (Development Project)",
+    carousel: `<div class="carousel-container"><div id="carouselDevProj" class="carousel slide" data-bs-ride="carousel"><div class="carousel-indicators"><button type="button" data-bs-target="#carouselDevProj" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button><button type="button" data-bs-target="#carouselDevProj" data-bs-slide-to="1" aria-label="Slide 2"></button><button type="button" data-bs-target="#carouselDevProj" data-bs-slide-to="2" aria-label="Slide 3"></button><button type="button" data-bs-target="#carouselDevProj" data-bs-slide-to="3" aria-label="Slide 4"></button></div><div class="carousel-inner"><div class="carousel-item active"><img src="images/projects/HRSoft/HRSoftWebLogin.png" class="d-block h-auto" alt="Login Page | Screenshot of the Login page for the HRSoft project"><div class="carousel-caption d-none d-md-block"><h5>Login Page</h5><p>Landing page of my Software Architecture and Design application</p></div></div><div class="carousel-item"><img src="images/projects/HRSoft/HRSoftWebDash.png" class="d-block h-auto" alt="Dashboard | Screenshot of the dashboard for the HRSoft project"><div class="carousel-caption d-none d-md-block"><h5>User Dashboard</h5></div></div><div class="carousel-item"><img src="images/projects/HRSoft/HRSoftWebCalenderBooked.png" class="d-block h-auto" alt="Calender Page | Screenshot of the Calender page for the HRSoft project"><div class="carousel-caption d-none d-md-block"><h5>Booked Holiday</h5></div></div><div class="carousel-item"><img src="images/projects/HRSoft/HRSoftWebHolidayReq.png" class="d-block h-fit-container" alt="Image of book holidays"><div class="carousel-caption d-none d-md-block"><h5>Book Holidays</h5></div></div></div><button class="carousel-control-prev" type="button" data-bs-target="#carouselDevProj" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#carouselDevProj" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button></div></div>`,
+    button: '',
+    date: "2026-01-01",
+    status: "Completed: 2026-04-28",
+  },
+  {
     title: "Software Architectural and Design Project (SAaD)",
-    carousel: `<div class="carousel-container"><div id="carouselSAaD" class="carousel slide" data-bs-ride="carousel"><div class="carousel-indicators"><button type="button" data-bs-target="#carouselSAaD" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button><button type="button" data-bs-target="#carouselSAaD" data-bs-slide-to="1" aria-label="Slide 2"></button><button type="button" data-bs-target="#carouselSAaD" data-bs-slide-to="2" aria-label="Slide 3"></button><button type="button" data-bs-target="#carouselSAaD" data-bs-slide-to="3" aria-label="Slide 4"></button></div><div class="carousel-inner"><div class="carousel-item active"><img src="images/projects/SAaD/Screenshot 2025-12-18 083907.png" class="d-block h-auto" alt="Home Page | Screenshot of the home page for the SAaD project"><div class="carousel-caption d-none d-md-block"><h5>First slide label</h5><p>Some representative placeholder content for the first slide.</p></div></div><div class="carousel-item"><img src="images/projects/SAaD/Screenshot 2025-12-18 083810.png" class="d-block h-auto" alt="Dashboard | Screenshot of the dashboard for the SAaD project"><div class="carousel-caption d-none d-md-block"><h5>Second slide label</h5><p>Some representative placeholder content for the second slide.</p></div></div><div class="carousel-item"><img src="images/projects/SAaD/Screenshot 2025-12-18 083847.png" class="d-block h-auto" alt="Login Page | Screenshot of the login page for the SAaD project"><div class="carousel-caption d-none d-md-block"><h5>Third slide label</h5><p>Some representative placeholder content for the third slide.</p></div></div><div class="carousel-item"><img src="images/projects/SAaD/Screenshot 2025-12-18 084453.png" class="d-block h-auto" alt="Settings Page | Screenshot of the settings page for the SAaD project"><div class="carousel-caption d-none d-md-block"><h5>Fourth slide label</h5><p>Some representative placeholder content for the fourth slide.</p></div></div></div><button class="carousel-control-prev" type="button" data-bs-target="#carouselSAaD" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#carouselSAaD" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button></div></div>`,
+    carousel: `<div class="carousel-container"><div id="carouselSAaD" class="carousel slide" data-bs-ride="carousel"><div class="carousel-indicators"><button type="button" data-bs-target="#carouselSAaD" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button><button type="button" data-bs-target="#carouselSAaD" data-bs-slide-to="1" aria-label="Slide 2"></button><button type="button" data-bs-target="#carouselSAaD" data-bs-slide-to="2" aria-label="Slide 3"></button><button type="button" data-bs-target="#carouselSAaD" data-bs-slide-to="3" aria-label="Slide 4"></button></div><div class="carousel-inner"><div class="carousel-item active"><img src="images/projects/SAaD/Screenshot 2025-12-18 083907.png" class="d-block h-auto" alt="Home Page | Screenshot of the home page for the SAaD project"><div class="carousel-caption d-none d-md-block"><h5>Index Page</h5><p>Landing page of my Software Architecture and Design application</p></div></div><div class="carousel-item"><img src="images/projects/SAaD/Screenshot 2025-12-18 083810.png" class="d-block h-auto" alt="Dashboard | Screenshot of the dashboard for the SAaD project"><div class="carousel-caption d-none d-md-block"><h5>Ticket Dashboard</h5></div></div><div class="carousel-item"><img src="images/projects/SAaD/Screenshot 2025-12-18 083847.png" class="d-block h-auto" alt="Login Page | Screenshot of the login page for the SAaD project"><div class="carousel-caption d-none d-md-block"><h5>Login Page</h5></div></div><div class="carousel-item"><img src="images/projects/SAaD/Screenshot 2025-12-18 084453.png" class="d-block h-auto" alt="Settings Page | Screenshot of the settings page for the SAaD project"><div class="carousel-caption d-none d-md-block"><h5>User Settings</h5></div></div></div><button class="carousel-control-prev" type="button" data-bs-target="#carouselSAaD" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#carouselSAaD" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button></div></div>`,
+    button: '',
     date: "2025-09-15",
     status: "Completed: 2025-12-19",
   },
   {
-    title: "Raytheon | Profesional Software Project (PSP | Group)",
+    title: "Raytheon (Profesional Software Project | Group)",
     carousel: ``,
+    button: '',
     video: `<div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/T8C5fQHScMs" title="Group Video Submission" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`,
     date: "2025-01-25",
     status: "Completed: 2025-04-16",
   },
   {
-    title: "Inventory Management System (Intro To Software Engineering | Group)",
+    title:
+      "Inventory Management System (Intro To Software Engineering | Group)",
     carousel: `<div class="carousel-container"><div id="carouselInventory" class="carousel slide" data-bs-ride="carousel"><div class="carousel-indicators"><button type="button" data-bs-target="#carouselInventory" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button><button type="button" data-bs-target="#carouselInventory" data-bs-slide-to="1" aria-label="Slide 2"></button><button type="button" data-bs-target="#carouselInventory" data-bs-slide-to="2" aria-label="Slide 3"></button><button type="button" data-bs-target="#carouselInventory" data-bs-slide-to="3" aria-label="Slide 4"></button></div><div class="carousel-inner"><div class="carousel-item active"><img src="images/projects/IMS/imsLogin.png" class="d-block h-auto" alt="Login Page | Screenshot of the login page for IMS"><div class="carousel-caption d-none d-md-block"><h5>Login Page</h5><p>Inventory Management System login interface.</p></div></div><div class="carousel-item"><img src="images/projects/IMS/imsAdmin1.png" class="d-block h-auto" alt="Admin Dashboard 1"><div class="carousel-caption d-none d-md-block" style="color: black;"><h5>Admin Dashboard 1</h5><p>First admin dashboard view.</p></div></div><div class="carousel-item"><img src="images/projects/IMS/imsAdmin2.png" class="d-block h-auto" alt="Admin Dashboard 2"><div class="carousel-caption d-none d-md-block" style="color: black;"><h5>Admin Dashboard 2</h5><p>Second admin dashboard view.</p></div></div><div class="carousel-item"><img src="images/projects/IMS/imsAdmin3.png" class="d-block h-auto" alt="Admin Dashboard 3"><div class="carousel-caption d-none d-md-block" style="color: black;"><h5>Admin Dashboard 3</h5><p>Third admin dashboard view.</p></div></div></div><button class="carousel-control-prev" type="button" data-bs-target="#carouselInventory" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#carouselInventory" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button></div></div>`,
+    button: '',
+    video:'',
     date: "2024-09-15",
     status: "Completed: 2025-01-06",
   },
   {
-    title: "Kuwait Finance House | Software Project (SP | Group)",
+    title: "Kuwait Finance House (Software Project | Group)",
     carousel: `<div class="carousel-container"><div id="carouselKuwait" class="carousel slide" data-bs-ride="carousel"><div class="carousel-indicators"><button type="button" data-bs-target="#carouselKuwait" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button><button type="button" data-bs-target="#carouselKuwait" data-bs-slide-to="1" aria-label="Slide 2"></button><button type="button" data-bs-target="#carouselKuwait" data-bs-slide-to="2" aria-label="Slide 3"></button><button type="button" data-bs-target="#carouselKuwait" data-bs-slide-to="3" aria-label="Slide 4"></button><button type="button" data-bs-target="#carouselKuwait" data-bs-slide-to="4" aria-label="Slide 5"></button></div><div class="carousel-inner"><div class="carousel-item active"><img src="images/projects/Kuwait/EDRMs-Login.jpg" class="d-block h-auto" alt="Login Page"><div class="carousel-caption d-none d-md-block" style="color: black;"><h5>Login Page</h5><p>EDRMs system login interface.</p></div></div><div class="carousel-item"><img src="images/projects/Kuwait/EDRMs-Admin.jpg" class="d-block h-auto" alt="Admin Dashboard"><div class="carousel-caption d-none d-md-block" style="color: black;"><h5>Admin Dashboard</h5><p>Admin panel view.</p></div></div><div class="carousel-item"><img src="images/projects/Kuwait/EDRMs-Dash.jpg" class="d-block h-auto" alt="Dashboard"><div class="carousel-caption d-none d-md-block" style="color: black;"><h5>Dashboard</h5><p>Main system dashboard.</p></div></div><div class="carousel-item"><img src="images/projects/Kuwait/EDRMs-Docs.jpg" class="d-block h-auto" alt="Documents"><div class="carousel-caption d-none d-md-block" style="color: black;"><h5>Documents</h5><p>Document management interface.</p></div></div><div class="carousel-item"><img src="images/projects/Kuwait/EDRMs-Audit.jpg" class="d-block h-auto" alt="Audit Log"><div class="carousel-caption d-none d-md-block" style="color: black;"><h5>Audit Log</h5><p>System audit trail.</p></div></div></div><button class="carousel-control-prev" type="button" data-bs-target="#carouselKuwait" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" type="button" data-bs-target="#carouselKuwait" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button></div></div>`,
+    button: '',
+    video:'',
     date: "2024-02-17",
     status: "Completed: 2024-04-18",
   },
   {
-    title: "Currancy Transfer Applicaton | Software Project (SP | Solo) ",
+    title: "Currancy Transfer Applicaton (Software Project | Solo) ",
+    button: '',
     video: `<div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/8qWDQimS6CE" title="Currency Transfer Application Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`,
     date: "2024-01-25",
     status: "Completed: 2024-04-18",
@@ -48,14 +63,21 @@ function renderCards() {
   sortedCards.forEach((card) => {
     const cardHTML = `
               <div class="col-sm-6 mt-2">
-            <div class="card text-light">
+            <div class="card text-light" style="height:769.607px">
               <div class="card-header text-center text-light">
                 <h3>${card.title}</h3>
               </div>
               <div class="card-body">
-                ${card.carousel ? card.carousel : card.video ? card.video : `<p class="fw-normal card-text">
+                ${
+                  card.carousel
+                    ? card.carousel
+                    : card.video
+                      ? card.video
+                      : `<p class="fw-normal card-text">
                     ${card.text}
-                </p>`}
+                </p>`
+                }
+                ${card.button ?card.button : card.button}
               </div>
               <div class="card-footer">${card.date} | ${card.status}</div>
             </div>
