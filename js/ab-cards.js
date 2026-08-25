@@ -24,7 +24,21 @@ const cardsData = [
       "Supported procurement and resource handling whilst training colleagues and work-experience students. Acted as point of contact for Russian and Ukrainian students, utilising limited Russian language skills to facilitate effective communication.",
     date: "2021-09-01",
     status: "2023-08-31",
-    button: "<a href='experience.html#ict-apprentice' class='btn btn-primary'>Read More</a>",
+    button:
+      "<a href='experience.html#ict-apprentice' class='btn btn-primary'>Read More</a>",
+  },
+  {
+    title: "East Norfolk Sixth Form College",
+    text: "During my time at East Norfolk Sixth Form I studied BTEC Games Development & Design Level 3, ICT Level 2.",
+    text_Bold: "Games Development & Design",
+    text_Desc:
+      "During this course I learned how to use Unreal Engine 4, 3DSMax, Adobe Ilustration, PyxelEdit and more. We learned how to make 2D and 3D games, animations, 3D models, and cover posters",
+    text_Bold1: "ICT",
+    text_Desc1:
+      "In this module I learned the fundimentals of ICT. From creating web applications, to how the internet works, packet tracking, and understanding basic cyber security.",
+    date: "2018-09-01",
+    status: "2020-06-01",
+    button: "",
   },
 ];
 
